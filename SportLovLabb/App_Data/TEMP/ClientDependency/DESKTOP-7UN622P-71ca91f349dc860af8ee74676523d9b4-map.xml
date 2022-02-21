@@ -64,4 +64,14 @@
       <file name="/umbraco/lib/tinymce/plugins/noneditable/plugin.min.js" />
     </files>
   </item>
+  <item key="L2Nzcy9zdHlsZXMuY3NzOw" file="C:\Users\macka\source\repos\SportLovLabb\SportLovLabb\App_Data\TEMP\ClientDependency\1_8fff3e9e384940c5a2b1835c1debd7eb.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/css/styles.css" />
+    </files>
+  </item>
+  <item key="L2pzL3NjcmlwdHMuanM7" file="C:\Users\macka\source\repos\SportLovLabb\SportLovLabb\App_Data\TEMP\ClientDependency\1_7dd783d507a14ec09095a7ddd7ed3a22.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/js/scripts.js" />
+    </files>
+  </item>
 </map>
