@@ -319,6 +319,11 @@
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
     <Content Include="Global.asax" />
+    <Content Include="img\about-bg.jpg" />
+    <Content Include="img\contact-bg.jpg" />
+    <Content Include="img\home-bg.jpg" />
+    <Content Include="img\post-bg.jpg" />
+    <Content Include="img\post-sample-image.jpg" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -352,12 +357,26 @@
     <Content Include="Views\Master.cshtml" />
     <Content Include="Views\Partials\navigation.cshtml" />
     <Content Include="Views\Partials\footer.cshtml" />
+    <Content Include="Views\Partials\latestArticles.cshtml" />
+    <Content Include="Views\Article.cshtml" />
+    <Content Include="Views\ArticleList.cshtml" />
+    <Content Include="Views\Content.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
+    <Content Include="Views\Search.cshtml" />
+    <Content Include="Views\Partials\pageHeader.cshtml" />
+    <Content Include="Views\Partials\Grid\Clean.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CleanBlog.Core\CleanBlog.Core.csproj">
+      <Project>{372ab82f-d272-44c9-9660-bc6f809c353d}</Project>
+      <Name>CleanBlog.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

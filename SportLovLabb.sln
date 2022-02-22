@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportLovLabb", "SportLovLabb\SportLovLabb.csproj", "{95B1F70D-B157-4DAC-847A-A5BEF50401D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanBlog.Core", "CleanBlog.Core\CleanBlog.Core.csproj", "{372AB82F-D272-44C9-9660-BC6F809C353D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{95B1F70D-B157-4DAC-847A-A5BEF50401D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B1F70D-B157-4DAC-847A-A5BEF50401D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B1F70D-B157-4DAC-847A-A5BEF50401D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372AB82F-D272-44C9-9660-BC6F809C353D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372AB82F-D272-44C9-9660-BC6F809C353D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372AB82F-D272-44C9-9660-BC6F809C353D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372AB82F-D272-44C9-9660-BC6F809C353D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
