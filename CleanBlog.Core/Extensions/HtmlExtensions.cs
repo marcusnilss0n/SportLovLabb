@@ -7,7 +7,7 @@ namespace CleanBlog.Core.Extensions
 {
 public static class HtmlExtensions
 {
-        public static IHtmlString GetGridHtml(this HtmlHelper html, IPublishedContent contentItem, string framework, string propertyAlias, bool fluidImages = false)
+        public static IHtmlString GetGridHtml(this HtmlHelper html, IPublishedContent contentItem, string framework, string propertyAlias, bool fluidImages)
         {
             if (fluidImages)
             {

@@ -365,6 +365,8 @@
     <Content Include="Views\Search.cshtml" />
     <Content Include="Views\Partials\pageHeader.cshtml" />
     <Content Include="Views\Partials\Grid\Clean.cshtml" />
+    <Content Include="Views\Error.cshtml" />
+    <Content Include="Views\XMLSitemap.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
