@@ -409,6 +409,7 @@
     <Content Include="Views\XMLSitemap.cshtml" />
     <Content Include="Views\Partials\Contact\contactForm.cshtml" />
     <Content Include="Views\Partials\Contact\result.cshtml" />
+    <Content Include="Views\Redirect.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -422,7 +423,9 @@
       <Name>CleanBlog.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="css\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
